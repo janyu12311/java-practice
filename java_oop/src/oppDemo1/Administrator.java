@@ -1,0 +1,15 @@
+package oppDemo1;
+
+public class Administrator extends Person{
+    @Override
+    public void show() {
+        System.out.println("管理员的信息为:"+getName()+","+getAge());
+    }
+
+    public Administrator() {
+    }
+
+    public Administrator(String name, int age) {
+        super(name, age);
+    }
+}
